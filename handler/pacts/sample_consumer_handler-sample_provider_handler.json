@@ -1,0 +1,31 @@
+{
+  "consumer": {
+    "name": "Sample consumer handler"
+  },
+  "provider": {
+    "name": "Sample provider handler"
+  },
+  "messages": [
+    {
+      "description": "no error",
+      "providerStates": [
+        {
+          "name": "given a message to PBB's lambda",
+          "params": null
+        }
+      ],
+      "contents": {
+        "id": "2",
+        "title": "Tesla",
+        "color": "Red"
+      },
+      "matchingRules": {
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  }
+}
